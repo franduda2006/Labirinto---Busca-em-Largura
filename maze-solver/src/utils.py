@@ -22,3 +22,4 @@ def draw_grid(canvas, maze):
         for y in range(len(maze[0])):
             color = get_color(maze[x][y].state)
             canvas.create_rectangle(y * 20, x * 20, (y + 1) * 20, (x + 1) * 20, fill=color, outline="gray")
+            

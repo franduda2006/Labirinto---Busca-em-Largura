@@ -35,3 +35,4 @@ class Maze:
         self.grid = [[0 for _ in range(self.width)] for _ in range(self.height)]
         self.start = None
         self.end = None
+        
