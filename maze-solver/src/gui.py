@@ -45,4 +45,3 @@ class MazeEditorGUI:
     def switch_mode(self):
         # Switch between edit and solve modes
         pass
-    
